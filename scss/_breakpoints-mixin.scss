@@ -1,5 +1,12 @@
 //  Helper mixin for generating custom breakpoints
 //  $breakepoints is defined in _varriables.scss
+//  Useage:
+//  @include generate-breakpoints {
+//    .class-name#{$bkpt-suffix} {
+//      @include top-0;
+//    }
+//  }
+
 $bkpt-suffix: "";
 @mixin generate-breakpoints {
   @each $breakpoint, $media in $breakpoints {

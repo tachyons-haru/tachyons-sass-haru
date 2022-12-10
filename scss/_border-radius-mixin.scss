@@ -1,36 +1,90 @@
+///
+/// @group Borders
+/// @link http://tachyons.io/docs/themes/border-radius/
+/// @output Border radius right: 0
 @mixin br0 {
-  border-radius: var(--border-radius-none);
+  border-radius: none;
 }
+
+///
+/// @group Borders
+/// @link http://tachyons.io/docs/themes/border-radius/
+/// @output Border radius right: 1st level
 @mixin br1 {
   border-radius: var(--border-radius-1);
 }
+
+///
+/// @group Borders
+/// @link http://tachyons.io/docs/themes/border-radius/
+/// @output Border radius right: 2nd level
 @mixin br2 {
   border-radius: var(--border-radius-2);
 }
+
+///
+/// @group Borders
+/// @link http://tachyons.io/docs/themes/border-radius/
+/// @output Border radius right: 3rd level
 @mixin br3 {
   border-radius: var(--border-radius-3);
 }
+
+///
+/// @group Borders
+/// @link http://tachyons.io/docs/themes/border-radius/
+/// @output Border radius right: 4th level
 @mixin br4 {
   border-radius: var(--border-radius-4);
 }
+
+///
+/// @group Borders
+/// @link http://tachyons.io/docs/themes/border-radius/
+/// @output Border radius right: 3rd level
 @mixin br-100 {
   border-radius: var(--border-radius-circle);
 }
+
+///
+/// @group Borders
+/// @link http://tachyons.io/docs/themes/borders/
+/// @output Border radius for pills
 @mixin br-pill {
   border-radius: var(--border-radius-pill);
 }
+
+///
+/// @group Borders
+/// @link http://tachyons.io/docs/themes/borders/
+/// @output Border bottom base class
 @mixin br--bottom {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
+///
+/// @group Borders
+/// @link http://tachyons.io/docs/themes/borders/
+/// @output Border top base class
 @mixin br--top {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
+
+///
+/// @group Borders
+/// @link http://tachyons.io/docs/themes/borders/
+/// @output Border right base class
 @mixin br--right {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
+
+///
+/// @group Borders
+/// @link http://tachyons.io/docs/themes/borders/
+/// @output Border left base class
 @mixin br--left {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
